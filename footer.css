@@ -1,0 +1,42 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links {
+    text-align: center;
+  }
+  
+  .footer-links a {
+    display: inline-block; /* Ensures margin works properly */
+    margin: 0 26px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right:  22px;
+    
+  }
+  
+  .social-icons a {
+    color: white;
+    border-radius: 12px solid #f2f2f2;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.2);
+  }
+  

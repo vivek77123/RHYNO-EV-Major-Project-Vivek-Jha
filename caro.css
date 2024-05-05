@@ -1,0 +1,37 @@
+.carousel-container {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .carousel-content {
+    position: relative;
+  }
+  
+  .carousel-content img {
+    width: 94%;
+    height: auto;
+    border-radius: 8px;
+  
+  }
+  
+  .carousel-text {
+    position: absolute;
+    bottom: -55px; /* Adjust as needed */
+    margin-right: -290%;/* Adjust as needed */
+    color: #0b0a0a;
+    left: -71%;
+    
+    
+    
+  }
+  
+  .carousel-text h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .carousel-text p {
+    font-size: 16px;
+  }
+  

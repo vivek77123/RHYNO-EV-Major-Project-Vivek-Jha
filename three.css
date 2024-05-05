@@ -1,0 +1,118 @@
+.hi {
+    position: absolute;
+    margin-top: 129%;
+    left: 34%;
+    
+}
+.data{
+    width: 84%;
+    height: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border: 0.5px solid #0a0d10;
+    border: none;
+    box-shadow: 0px 0px 10px 4px lightgray;
+    margin: 40px;
+    text-align: center;
+    gap: 2rem;
+    font-size: 1rem;
+    top: 16%;
+    position: relative;
+    right: -62%;
+}
+.align{
+
+  position: absolute;
+   left: 20%;
+}
+.data button{
+    width: 39%;
+    left: 55%;
+  }
+  .slideshows{
+    position: absolute;
+    width: 640px; /* Adjust the width of the slideshow container */
+    height: 450px; /* Adjust the height of the slideshow container */
+    overflow: visible;
+    padding: 0 0 22px;
+    bottom: 50%;
+  
+    top: 26%;
+    margin-left: -139%;
+    right: 44%;
+}
+
+.slidetwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94%; /* Ensure images fill the container */
+    height: 100%; /* Ensure images fill the container */
+    opacity: 1; /* Start with the image hidden */
+    transition: opacity 1s ease; /* Smooth transition for opacity */
+  }
+  
+  /* Animation */
+  @keyframes slide {
+    0% { left: 0; opacity: 0; } /* Start at 0 opacity and left position */
+    25% { opacity: 1; } /* Fade in */
+    50% { left: -100%; } /* Slide to the left */
+    75% { opacity: 0.5; } /* Fade out */
+    100% { left: 0; opacity: 0; } /* Reset to initial state */
+    
+  }
+  
+  .slidetwo:first-child {
+    animation: slide 8s infinite; /* Adjust duration as needed */
+  }
+  
+  .slidetwo:nth-child(2) {
+    animation: slide 8s infinite 4s; /* Delay start of animation for second image */
+  }
+  ol{
+    list-style-type: circle;
+    left: 10%;
+    position: relative;
+  }
+  ol li::marker {
+    content: "\25CF"; /* Unicode character for a solid circle */
+    color: #131313; /* Change color to red */
+    margin-left: 28%;
+    /* Add space between marker and text */
+    font-size: 24px;
+    
+   
+}
+  li {
+    margin-bottom: 29px; /* Add spacing between list items */
+    
+}
+ol li{
+  padding-left: 20px;
+}
+ol b{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.payment-form-two {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.payment-form-two label {
+  display: block;
+  margin-bottom: 5px;
+ 
+}
+
+.payment-form-two input {
+  width: 50%;
+  margin-right: 10px;
+
+  padding: 0 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+

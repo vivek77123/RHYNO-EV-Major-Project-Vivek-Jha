@@ -1,0 +1,170 @@
+
+.left-detail{
+    margin-left: 3%;
+    margin-top: 8%;
+   
+
+}
+.arange {
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+   align-items: first baseline;
+    /* Align the content to the top */
+  }
+#horizontal{
+    margin: 0 auto; /* Set margin to zero on top and bottom, and auto on left and right to center it */
+    width: 80%; /* Adjust the width as needed */
+    height: 4px; /* Adjust the height as needed */
+    background-color: black; /* Set the line color */
+
+    border: none; /* Remove any default border */
+    margin-bottom: 6%;
+}
+.container {
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .container h2 {
+    margin: 5%; /* Remove default margins */
+  }
+  .slideshow-container {
+    position: absolute;
+    width: 630px; /* Adjust the width of the slideshow container */
+    height: 450px; /* Adjust the height of the slideshow container */
+    overflow: visible;
+    padding: 0 0 15px ;
+    bottom: -200%;
+
+    right: 39%;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+     
+    border-radius: 20px;
+    width: 100%; /* Ensure images fill the container */
+    height: 100%; /* Ensure images fill the container */
+    opacity: 0; /* Start with the image hidden */
+    transition: opacity 1s ease; /* Smooth transition for opacity */
+
+  }
+  
+  /* Animation */
+  @keyframes slide {
+    0% { left: 0; opacity: 0; } /* Start at 0 opacity and left position */
+    25% { opacity: 1; } /* Fade in */
+    50% { left: -100%; } /* Slide to the left */
+    75% { opacity: 0; } /* Fade out */
+    100% { left: 0; opacity: 0; } /* Reset to initial state */
+  }
+  
+  .slide:first-child {
+    animation: slide 8s infinite; /* Adjust duration as needed */
+  }
+  
+  .slide:nth-child(3) {
+    animation: slide 8s infinite 4s; /* Delay start of animation for second image */
+  }
+  
+  .text-info {
+    width: 40%;
+    background-color: #fff;
+    padding: 20px;
+    border: 0.5px solid #0a0d10;
+    border: none;
+    box-shadow: 0px 0px 10px 4px lightgray;
+    margin: 40px;
+    position: relative;
+    top: 15%;
+    
+  }
+
+  h3 {
+    color: #3a3e43;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  i {
+    color: #131313;
+  }
+
+  b {
+    color: #53666b;
+  }
+
+  h2 b {
+    color: #FFF225;;
+  }
+  
+  button{
+    background-color: #252525;
+    color: #f2f2f2;
+    width: 13%;
+    position: relative;
+   margin-left: -380px;
+   font-size: 28px;
+    border-radius: 4px;
+  }
+  section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 67%;
+   position: absolute;
+   right: -23%;   
+   
+   
+  }
+  /*Payment styling*/
+  .payment-form {
+    max-width: 400px;
+    position: absolute;
+    margin-right: -20%;
+  }
+  
+  .payment-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-form label {
+    margin-bottom: 8px;
+  }
+  
+  .payment-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .payment-form button {
+    padding: 8px 15px; /* Reduced padding for a smaller button */
+    background-color: #252525;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: auto; /* Allow the button to adjust its width based on content */
+    min-width: 100px; /* Set a minimum width for the button */
+    border-radius: 20px; /* Increased border-radius for rounded corners */
+    margin: 20px 10px; /* Adjusted margin for spacing */
+    font-size: 0.9rem; /* Smaller font size */
+    display: inline-block; /* Display as inline-block to adjust width based on content */
+}
+
+
+  
+  .payment-form button:hover {
+    background-color: #252525;
+  }
+  
